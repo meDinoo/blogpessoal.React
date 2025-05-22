@@ -3,7 +3,7 @@ import type Postagem from "./Postagem";
 export default interface Usuario{
 
     id:number;
-    nome:String;
+    nome: string;
     usuario: string;
     foto: string;
     senha: string;
